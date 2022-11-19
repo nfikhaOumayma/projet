@@ -1,0 +1,111 @@
+{
+  "bateau": [
+    {
+      "id": 101,
+      "libelle": "HAWAII",
+      "marque": "Lagoon",
+      "categorie": "yacht a moteur",
+      "prix": 800000,
+      "etat": true,
+      "image": "../assets/bateau1",
+      "comments": [
+        {
+          "nom": "HAWAII",
+          "date": "12/13/2015"
+        }
+      ]
+    },
+    {
+    "id": 102,
+    "libelle": "SIRIUS",
+    "marque": "carolina",
+    "categorie": "yacht a moteur",
+    "prix": 200000,
+    "etat": true,
+    "image": "../assets/bateau2",
+    "comments": [
+        {
+            "nom": "SIRIUS",
+            "date": "12/13/2015"
+        }
+  ]
+},
+{
+  "id": 103,
+  "libelle": "Blue Marlin",
+  "marque": "carolina",
+  "categorie": "zodiac",
+  "prix": 60000,
+  "etat": true,
+  "image": "../assets/bateau3",
+  "comments": [
+      {
+          "nom": "Blue Marlin",
+          "date": "1/1/2014"
+      }
+]
+},
+{
+  "id": 104,
+  "libelle": "didon",
+  "marque": "Lagoon",
+  "categorie": "zodiac",
+  "prix": 500000,
+  "etat": true,
+  "image": "../assets/bateau4",
+  "comments": [
+      {
+          "nom": "didon",
+          "date": "12/1/2014"
+      }
+]
+},
+{
+  "id": 105,
+  "libelle": "Ferrando",
+  "marque": "yamaha",
+  "categorie": "yacht a moteur",
+  "prix": 500000,
+  "etat": true,
+  "image": "../assets/bateau5",
+  "comments": [
+      {
+          "nom": "Ferrando",
+          "date": "12/1/2014"
+      }
+]
+},
+{
+  "id": 106,
+  "libelle": "Queen Elizabeth",
+  "marque": "yamaha",
+  "categorie": "yacht a voil",
+  "prix": 630000,
+  "etat": true,
+  "image": "../assets/batea6",
+  "comments": [
+      {
+          "nom": "Queen Elizabeth",
+          "date": "12/1/2014"
+      }
+    ]
+  }
+],
+
+"formulair": [
+  {
+    "name": "nfikha",
+    "surname":"oumayma",
+    "username":"nfikhaoumayma",
+    "mdp":"2002"
+  }
+]
+  
+
+
+
+
+
+
+}
+
