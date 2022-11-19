@@ -7,7 +7,7 @@
       "categorie": "yacht a moteur",
       "prix": 800000,
       "etat": true,
-      "image": "../assets/bateau1",
+      "image": "assets/bateau1.png",
       "comments": [
         {
           "nom": "HAWAII",
@@ -22,7 +22,7 @@
     "categorie": "yacht a moteur",
     "prix": 200000,
     "etat": true,
-    "image": "../assets/bateau2",
+    "image": "assets/bateau2.png",
     "comments": [
         {
             "nom": "SIRIUS",
@@ -37,7 +37,7 @@
   "categorie": "zodiac",
   "prix": 60000,
   "etat": true,
-  "image": "../assets/bateau3",
+  "image": "assets/bateau3.png",
   "comments": [
       {
           "nom": "Blue Marlin",
@@ -52,7 +52,7 @@
   "categorie": "zodiac",
   "prix": 500000,
   "etat": true,
-  "image": "../assets/bateau4",
+  "image": "assets/bateau5.jpg",
   "comments": [
       {
           "nom": "didon",
@@ -67,7 +67,7 @@
   "categorie": "yacht a moteur",
   "prix": 500000,
   "etat": true,
-  "image": "../assets/bateau5",
+  "image": "assets/bateau4.png",
   "comments": [
       {
           "nom": "Ferrando",
@@ -82,7 +82,7 @@
   "categorie": "yacht a voil",
   "prix": 630000,
   "etat": true,
-  "image": "../assets/batea6",
+  "image": "assets/bateau6.png",
   "comments": [
       {
           "nom": "Queen Elizabeth",
@@ -101,11 +101,6 @@
   }
 ]
   
-
-
-
-
-
 
 }
 

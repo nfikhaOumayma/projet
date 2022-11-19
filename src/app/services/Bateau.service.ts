@@ -8,9 +8,13 @@ const URL = 'http://localhost:3000/bateau';
   providedIn: 'root'
 })
 export class bateauService {
- 
 
-
-
-
+  constructor(private http:HttpClient) { }
+  getbateaux():Observable<bateau[]>{
+    return this.http.get<bateau[]>(URL);
+    }
+  /*addbateau(p:bateau):Observable<bateau>{
+      return this.http.post<bateau>(URL, p);
+      }*/
+      
 }

@@ -1,1 +1,12 @@
-<p>bateau works!</p>
+<div [ngClass]="{'d-flex justify-content-between':true ,'bg-warning':!bateau.etat}">
+    <div>
+        <span Class="badge bg-dark">{{bateau.id}}</span><br>
+        <span Class="badge bg-dark">{{bateau.libelle}}</span><br>
+        <img  class="" [src]="bateau.image"><br>
+        Marque:{{bateau.marque}}<br>
+        categorie:{{bateau.categorie}}<br>
+        <span *ngIf="bateau.etat==true">Disponible</span>
+    </div>
+  Prix:{{bateau.prix}}
+</div>
+<button>Voir detail</button>

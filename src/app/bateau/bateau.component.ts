@@ -1,5 +1,7 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { bateau } from '../classeBateau/bateau';
+import { bateauService } from '../services/Bateau.service';
 
 @Component({
   selector: 'app-bateau',
@@ -7,9 +9,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bateau.component.css']
 })
 export class BateauComponent implements OnInit {
-
-  constructor(private http:HttpClient) { }
-
+  @Input()bateau!:bateau;
+ 
+  constructor(private http:HttpClient,) { }
 
   ngOnInit(): void {
   }
