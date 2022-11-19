@@ -1,7 +1,6 @@
 <h1>Nos Bateaux</h1>
 <ul class="list-group">
-    <li *ngFor="let b of lesbateaux" class="list-group-item"
-     [ngClass]="{'bg-warning':b.etat==false}">
+    <li *ngFor="let b of lesbateaux" class="list-group-item" [ngClass]="{'bg-warning':b.etat==false}">
      <app-bateau [bateau]="b"></app-bateau>
     </li>
 </ul>
